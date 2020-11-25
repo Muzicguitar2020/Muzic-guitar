@@ -3,7 +3,7 @@ body , html
 	margin: 0;
 	padding: 0;
 }
-.muzic-img
+.muzic-i
 {
 	margin-left: 40px;
 	margin-top: 20px;
@@ -14,47 +14,7 @@ body , html
 	font-size:xx-large;
 	padding: 10px;
 }
-section
-{
-	position: relative;
-	width: 100%;
-	min-height: 100vh;
-	padding: 100px;
-	display: flex;
-	justify-content:  space-between;
-	background: #fff
-}
-header
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%
-	padding: 20px 100px;
-	display: flex;
-	justify-content:  space-between;
-	background: #fff
-}
-header ul
- {
- 	position: relative;
- 	display: flex;
- 	margin-left: 500px;
- }
-header ul li
-{
-	list-style: none;
-	font-size: x-large;
-}
-header ul li a
-{
-	display: inline-block;
-	color: #333;
-	font-weight: 400;
-	margin-left: 40px;
-	text-decoration: none;
-	margin-top: 40px
-}
+
 .M_z
 {
 	padding-top:30px ;
@@ -62,9 +22,9 @@ header ul li a
 }
 .baneer
 {
-	margin-right: 100px;
-	margin-top: 50px;
-	width:1400px;
+	margin-left:0px;
+	margin-top: 7px;
+	width:1800px;
 	height: 600px;
 }
 .tabb
@@ -112,7 +72,76 @@ header ul li a
 	padding: 10px;
     border: 1px solid #d1d1d1;
     margin: 10px;
+
 }
+.main-menu li{
+	float: right;
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	list-style: none;
+	text-align: center;
+	background: #2574a9;
+}
+.main-menu li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.main-menu ul{
+	display: none;
+}
+.main-menu li:hover ul{
+	display: block;
+}
+.main-menu li:hover{
+	background: #115;
+}
+.main-menu li:hover  a{
+     color: white
+}
+.main-menu ul li{
+	background: #2574a9;
+}
+.muzic-i
+{
+margin-left: 40px;
+margin-bottom: 0px;
+margin-top: 0px;
+height: 150px;
+width: 150px;
+margin-top: 0px;
+}
+.main-menu ul
+{
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
